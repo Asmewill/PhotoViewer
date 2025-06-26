@@ -35,7 +35,7 @@ lastRelease：<a><img src="https://img.shields.io/github/release/wanglu1209/Phot
 
 ```Gradle
 dependencies {
-	        implementation 'com.github.wanglu1209:PhotoViewer:lastRelease'
+	        implementation 'com.github.Asmewill:PhotoViewer:v1.0.0'
 	}
 	
 ```
