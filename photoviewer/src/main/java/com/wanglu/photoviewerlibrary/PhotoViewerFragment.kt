@@ -62,7 +62,7 @@ class PhotoViewerFragment : BaseLazyFragment() {
         // 循环查看是否添加上了图片
         Thread(Runnable {
             while (true) {
-                if (mIv.drawable != null) {
+                if (mIv!=null&&mIv.drawable != null) {
                     activity!!.runOnUiThread {
                         loading.visibility = View.GONE
                     }
